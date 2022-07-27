@@ -98,7 +98,7 @@
     </header>
     <!-- main section starts from here  -->
     <main class="mt-5 container">
-        <section class="header title text-center">
+        <section class="header-title text-center">
             <h1><b>Discover Our Popular <br> Courses</b></h1>
             <p class="fw-bold text-secondary">We provide so many courses like web development, web design, UI/UX, Digital Marketing and so many. <br> You can Check this out here.</p>
         </section>
@@ -175,32 +175,109 @@
             <button class="btn btn-primary">View All</button>
         </section>
         <!-- e-learning explore part start here  -->
-        <section class="e-learning mt-5 d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center bg-secondary"> 
-            <div class="banner-img w-50">
+        <section class="e-learning mt-5 bg-secondary">
+          <div class="row">
+              <div class="banner-img col-lg-6 col-12">
                 <img src="images/working.png" class="w-100" alt="">
-            </div>
-            <div class="banner-details p-md-5 p-lg-5 text-white w-50">
-                <h1><b>Explore The elearning Institute</b></h1>
-                <p>A learning system based on formalised teaching but with the help of electronic resources is known as E-learning. While teaching can be based in or out of the classrooms, the use of computers and the Internet forms the major component of E-learning. E-learning can also be termed as a network enabled transfer of skills and knowledge, and the delivery of education is made to a large number of recipients at the same or different times.</p>
-                <br>
-                <p>However, with the rapid progress in technology and the advancement in learning systems, it is now embraced by the masses.</p>
-                <div class="counter d-flex justify-content-between">
-                    <div class="count">
-                        <h1 class="fw-bold">3.2K+</h1>
-                        <p class="fw-bold">Online Courses</p>
-                    </div>
-                    <div class="count">
-                        <h1 class="fw-bold">600+</h1>
-                        <p class="fw-bold">Online Member</p>
-                    </div>
-                    <div class="count">
-                        <h1 class="fw-bold">1K+</h1>
-                        <p class="fw-bold">Review and Rating</p>
-                    </div>
+              </div>
+              <div class="banner-details col-lg-6 col-12 p-5 text-white d-flex align-items-center">
+                <div>
+                  <h1><b>Explore The elearning Institute</b></h1>
+                  <p>A learning system based on formalised teaching but with the help of electronic resources is known as E-learning. While teaching can be based in or out of the classrooms, the use of computers and the Internet forms the major component of E-learning. E-learning can also be termed as a network enabled transfer of skills and knowledge, and the delivery of education is made to a large number of recipients at the same or different times.</p>
+                  <br>
+                  <p>However, with the rapid progress in technology and the advancement in learning systems, it is now embraced by the masses.</p>
+                  <div class="counter d-flex justify-content-between">
+                      <div class="count">
+                          <h1 class="fw-bold">3.2K+</h1>
+                          <p class="fw-bold">Online Courses</p>
+                      </div>
+                      <div class="count">
+                          <h1 class="fw-bold">600+</h1>
+                          <p class="fw-bold">Online Member</p>
+                      </div>
+                      <div class="count">
+                          <h1 class="fw-bold">1K+</h1>
+                          <p class="fw-bold">Review and Rating</p>
+                      </div>
+                  </div>
+                  <button class="btn btn-primary fw-bold px-3 py-1">Read More</button>
                 </div>
-                <button class="btn btn-primary fw-bold px-3 py-1">Read More</button>
-            </div>
+              </div>
+          </div>
         </section>
+        <!-- join section started here -->
+        <section class="join-section mt-5 p-5 d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center justify-content-between bg-primary text-white rounded">
+          <div class="join-details">
+            <h1>Ready To Join</h1>
+            <p>By joining with us you can grow up your skills.</p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Join Now</button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body text-dark">
+                    You have to be our student
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Successful student part starts here  -->
+        <section class="header-title mt-5">
+          <h1><b>Meet Our Successful<br>Student</b></h1>
+          <p class="fw-bold text-secondary">They all are our Successful students who are currently working on well establish company.</p>
+        </section>
+
+        <section class="students">
+          
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-12">
+                <img src="images/student/student-1.png" alt="">
+                <h4>Awlad Hossain</h4>
+                <p>Ui/Ux designer</p>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <img src="images/student/student-2.png" alt="">
+                <h4>Jannatul Islam</h4>
+                <p>Motion Designer</p>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <img src="images/student/student-3.png" alt="">
+                <h4>Imran Hossain</h4>
+                <p>Graphics Designer</p>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <img src="images/student/student-4.png" alt="">
+                <h4>Nishi Akter</h4>
+                <p>Web developer</p>
+              </div>
+            </div>
+          
+        </section>
+
+        <!-- FAQ part starts here  -->
+        <section class="header-title mt-5 text-center">
+          <h1><b>Frequently Asked Questions</b></h1>
+          <p class="fw-bold text-secondary">Common questions from student to us are here.</p>
+        </section>
+
+        <section class="faq">
+
+        </section>
+
     </main>
 
 
